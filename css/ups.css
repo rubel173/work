@@ -1,0 +1,296 @@
+:root{
+  --green:#579b8e;
+}
+/*banner start*/
+/*banner start*/
+.banner{
+  background-image: url(https://bluebrands.my.canva.site/ups-casestudy/images/133d088f3473a8bb62eda3e005bcb057.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+/*  border-bottom: 20px solid yellow;*/
+}
+.banner img{
+  position: absolute;
+  top: 30px;
+  left: -110px;
+  height: 20%;
+
+}
+.overlay{
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #1b2f69;
+  height: 500px;
+  opacity: 70%;
+}
+.overlay h2{
+  font-size: 62px;
+  color: white;
+  font-weight: 800;
+}
+.h4{
+  padding: 5px 20px;
+  width: 300px;
+  background-color: #fec020;
+  margin-top: 20px;
+  
+}
+.h4 h4{
+  font-size: 40px;
+  text-align: center;
+  color: #011329;
+  font-weight: 800;
+}
+.b_icon{
+  position: relative;
+}
+.b_icon i{
+  position: absolute;
+  opacity: 1;
+  font-size: 200px;
+}
+.bi1{
+  color: white; 
+  top: -170px; 
+  right: 20px;
+}
+.bi2{
+  top: -170px;
+  right: -70px;
+  color: yellow;
+}
+.bi3{
+  color: yellow; 
+  top: 0px; 
+  right: 20px;
+/*  rotate: 90deg;*/
+}
+.bi4{
+  color: white; 
+  top: -45px; 
+  right: -58px;
+/*  rotate: 90deg;*/
+}
+.link{
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  font-size: 20px;
+  color: white;
+}
+/*banner end */
+/*banner end */
+/*driving start*/
+.driving{}
+.driving p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+}
+.driving h2{
+  font-size: 30px;
+  color: var(--contentColor);
+  font-weight: 800;
+}
+/*driving end*/
+/*common start*/
+.common{}
+.common h1{
+  font-size: 30px;
+  color: var(--green);
+  font-weight: 800;
+}
+.common p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+}
+.common ul li{
+  font-size: 25px;
+  color: var(--contentColor);
+  font-weight: 800;
+}
+/*common start*/
+
+/*media start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .banner_text h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  .overlay h2 {
+    font-size: 45px;
+  }
+  .bi1 {
+    display: none;
+  }
+  .bi2 {
+    display: none;
+  }
+  .bi3 {
+    display: none;
+  }
+  .bi4 {
+    display: none;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner_text h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  .banner{
+    height: 400px;
+  }
+  .overlay{
+    height: 400px;
+  }
+  .overlay h2 {
+    font-size: 30px;
+  }
+  .h4 h4 {
+    font-size: 25px;
+  }
+  .h4 {
+    width: 200px;
+  }
+  .b_icon i {
+    font-size: 100px;
+  }
+  .bi1 {
+    top: -290px;
+    right: 6px;
+  }
+  .bi2 {
+    top: -290px;
+    right: -40px;
+  }
+  .bi3 {
+    top: -180px;
+  }
+  .bi4 {
+    top: -210px;
+    right: -15px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner_text h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 22px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  .overlay h2 {
+    font-size: 50px;
+  }
+  .h4 h4 {
+    font-size: 30px;
+  }
+  .h4 {
+    width: 220px;
+  }
+  .b_icon i {
+    font-size: 150px;
+  }
+  .bi1 {
+    top: -390px;
+  }
+  .bi2 {
+    top: -390px;
+    right: -55px;
+  }
+  .bi3 {
+    top: -240px;
+  }
+  .bi4 {
+    top: -280px;
+    right: -39px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  
+}

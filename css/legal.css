@@ -1,0 +1,107 @@
+.banner{
+  background-image: url(../img/legal.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.banner h1{
+      font-size: 80px;
+      text-transform: uppercase;
+    font-weight: 900;
+    color: var(--nameColor);
+}
+.banner h2{
+  color: var(--whiteColor);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.paragraph p{
+  font-size: 20px;
+    color: var(--contentColor);
+    font-weight: 500;
+}
+.paragraph p span{
+  font-size: 25px;
+      text-transform: uppercase;
+    font-weight: 900;
+    color: #011329;
+}
+/* 
+=======================
+Extra_Small 
+=======================
+*/
+@media (max-width: 575.98px) 
+{
+  .banner h1{
+    font-size: 40px;
+  }
+  .banner h2{
+    font-size: 18px;
+  }
+  .banner{
+    height: 400px;
+  }
+  .paragraph p span {
+    font-size: 18px;
+  }
+}
+
+/*
+=======================
+Small 
+=======================
+ */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+  .banner h1{
+    font-size: 60px;
+  }
+  .banner h2{
+    font-size: 20px;
+  }
+}
+
+/*
+=======================
+Mideam 
+=======================
+ */
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+
+}
+
+/* 
+=======================
+Larg 
+=======================
+*/
+@media (min-width: 992px) and (max-width: 1999.98px) 
+{
+
+}
+
+/* 
+=======================
+Extra_Larg 
+=======================
+*/
+@media (min-width: 1200px) and (max-width: 1399.98px)
+{
+}
+
+/*
+=======================
+Extra_Extra_Larg 
+=======================
+*/
+@media (min-width: 1400px) 
+{
+
+}
